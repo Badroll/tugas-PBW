@@ -1,0 +1,177 @@
+body, html {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+.div-navbar {
+  display: flex;
+  overflow: hidden;
+}
+.div-navbar a {
+  display: block;
+  color: #527BA9;
+  padding: 25px;
+  font-size: 85%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.div-navbar a:hover {
+  color: #324c69
+}
+
+.active {
+  background: #E5E7EB;
+}
+
+.div-main{
+  background: #F1F6FB;
+}
+
+.div-main-image{
+	height: 100vh;
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-image: url("file:///D:/UDINUS/Matkul/PBW/tugas-ec/images/home-main2.png"); /*sesuaiin url foto di device mu*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.div-main-card{
+  height: auto;
+  display: flex;
+  background: blue;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 30px 10px 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -100px;
+}
+
+/*.div-main-card{
+  height: auto;
+  align-content: center;
+  background: blue;
+  position: absolute;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 650px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+  padding: 20px 30px 10px 30px;
+}*/
+
+.div-main-card div{
+	width: 33.33%;
+	padding: 10px;
+}
+
+.div-margined{
+  margin: 50px;
+}
+
+.div-testimony{
+  height: 220px;
+  background: #EFECEA;
+  padding: 50px;
+}
+
+.div-testimony-card{
+  display: flex;
+  height: auto;
+  align-content: center;
+  position: relative;
+  background: blue;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+
+.div-testimony-card-item{
+  width: 33.33%;
+  padding: 20px;
+}
+
+.div-footer{
+  background: #527BA9;
+  height: auto;
+  padding: 50px 40px 10px 40px;
+  color: white;
+}
+
+.div-footer-item{
+  width: 33%;
+}
+
+.item-footer-a{
+  color: white;
+  text-decoration: none;
+}
+
+.circle-image{
+	border-radius: 50%;
+	width: 50;
+	height: 50;
+}
+
+.div-bg-1{
+  background: #F1F6FB;
+  height: 200px;
+}
+
+.div-product-item{
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+
+.div-container-item{
+  position: relative;
+}
+
+.button-order{
+  text-decoration: none;
+  background: #527BA9;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
