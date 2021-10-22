@@ -98,7 +98,7 @@ body, html {
 
 .div-main-card div{
 	width: 33.33%;
-	padding: 10px;
+	padding: 20px 30px 20px 30px;
 }
 
 .div-margined{
@@ -128,6 +128,22 @@ body, html {
   padding: 20px;
 }
 
+.p-maxline-2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.p-maxline-3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
 .div-footer{
   background: #527BA9;
   height: auto;
@@ -151,25 +167,24 @@ body, html {
 }
 
 .div-bg-1{
+  height: 220px;
   background: #F1F6FB;
-  height: 200px;
+  padding: 50px;
 }
 
 .div-product-item{
   height: auto;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 20px;
-}
-
-.div-container-item{
-  position: relative;
+  padding: 20px 40px 20px 40px;
+  background: white;
 }
 
 .button-order{
+  font-family: 'Nunito';
   text-decoration: none;
   background: #527BA9;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 10px 30px 10px 30px;
   color: white;
   border: none;
